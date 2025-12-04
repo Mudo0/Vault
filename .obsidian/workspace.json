@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "728b6e4651143deb",
+        "id": "862ff6075f54eaf6",
         "type": "tabs",
         "children": [
           {
-            "id": "be494c78b9e7a16f",
+            "id": "5a1f6e5e3215b8bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lenguajes/C SHARP/NET/ASP.NET.md",
+                "file": "ToDoList API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ASP.NET"
+              "title": "ToDoList API"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To Do Trabajo Práctico.md",
+                "file": "Lenguajes/C SHARP/NET/ASP.NET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de To Do Trabajo Práctico"
+              "title": "Outgoing links from ASP.NET"
             }
           },
           {
@@ -128,10 +128,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Etiquetas"
+              "title": "Tags"
             }
           },
           {
@@ -158,16 +160,27 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "3fa4191b04324f40",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -179,43 +192,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "657603b67953a4fa",
+  "active": "5a1f6e5e3215b8bc",
   "lastOpenFiles": [
+    "Untitled.md",
+    "ToDoList API.md",
+    "Conceptos/REST.md",
     "README.md",
-    "Conceptos/MVC.md",
-    "Lenguajes/C SHARP/NET/ASP.NET.md",
-    "Lenguajes/C/C.md",
-    "Lenguajes/C SHARP/NET/Razor.md",
     "Conceptos/API.md",
-    "Conceptos/Código Abierto.md",
-    "Lenguajes/C SHARP/NET/(.NET).md",
-    "Lenguajes/C SHARP/Generics.md",
     "Lenguajes/C SHARP/C SHARP.md",
-    "To Do Trabajo Práctico.md",
-    "TO DO.md",
-    "Barras TOM.md",
+    "Lenguajes/C SHARP/Generics.md",
+    "Lenguajes/C SHARP/NET/(.NET).md",
+    "Lenguajes/C SHARP/NET/ASP.NET.md",
+    "Lenguajes/C SHARP/NET/Entity Framework.md",
+    "Lenguajes/C SHARP/NET/Razor.md",
     "Conceptos/Programación Procedimental.md",
     "Conceptos/Programación Genérica.md",
     "Conceptos/Paradigmas de Programación.md",
-    "Lenguajes/C SHARP/Sin título.canvas",
+    "Conceptos/MVC.md",
     "Conceptos/P.O.O.md",
-    "Conceptos/Fuertemente Tipado.md",
+    "Conceptos/Código Abierto.md",
+    "Lenguajes/C/C.md",
     "Lenguajes/C++/C++.md",
-    "Paradigmas de Programación",
-    "Lenguajes/C SHARP/NET/NET Standard.md",
-    "Lenguajes/C SHARP/NET/NET Core.md",
-    "Lenguajes/C SHARP/NET/NET Framework.md",
+    "Lenguajes/Java/Java.md",
+    "TO DO.md",
+    "Conceptos/Fuertemente Tipado.md",
     "Conceptos/GitHub.md",
+    "Clase.md",
+    "Untitled Kanban.md",
+    "Untitled.canvas",
+    "To Do Trabajo Práctico.md",
+    "Lenguajes/C SHARP/Sin título.canvas",
+    "Paradigmas de Programación",
     "Lenguajes/C SHARP/NET",
     "Conceptos",
     "Lenguajes/C",
     "Lenguajes/C++",
     "Lenguajes/Java",
     "Lenguajes",
-    "Lenguajes/Java/Java.md",
-    "2024-09-19.md",
     "C SHARP/Sin título.canvas",
-    "Bienvenido.md",
     "Lenguajes/C SHARP"
   ]
 }
