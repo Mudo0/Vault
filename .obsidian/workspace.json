@@ -11,10 +11,14 @@
             "id": "4bd58b826bd1f1fe",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Desarrollo/Entornos/DOTNET/Web/Proyecto/Directory.Build.props.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Directory.Build.props"
             }
           }
         ]
@@ -188,45 +192,46 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4bd58b826bd1f1fe",
+  "active": "6d479e8f3c5b4554",
   "lastOpenFiles": [
+    "Desarrollo/Entornos/DOTNET/Razor.md",
+    "Desarrollo/Entornos/DOTNET/Web/Proyecto/Directory.Build.props.md",
+    "Desarrollo/Entornos/DOTNET/Web/Proyecto",
+    "Desarrollo/Entornos/DOTNET/Web/ASP.NET.md",
+    "Desarrollo/Entornos/DOTNET/Web",
+    "Desarrollo/Entornos/DOTNET/(.NET).md",
+    "Conceptos/Arquitecturas/Directory.Build.props.md",
+    "Conceptos/Arquitecturas",
+    "Desarrollo/Entornos/DOTNET/Web/Entity Framework.md",
+    "Desarrollo/Entornos/Docker/Docker en WSL.md",
+    "Desarrollo/Entornos/Docker/Docker.md",
+    "Desarrollo/Lenguajes/C/C.md",
     "Untitled.md",
     "ToDoList API.md",
     "Desarrollo/Bases de datos/Postgres.md",
     "Desarrollo/Bases de datos",
     "Desarrollo/Entornos",
-    "Desarrollo/Entornos/Docker/Docker.md",
-    "Desarrollo/Entornos/Docker/Docker en WSL.md",
     "Desarrollo/Entornos/WSL.md",
-    "Conceptos/API.md",
+    "Conceptos/Arquitecturas/API.md",
     "Conceptos/Código Abierto.md",
     "Desarrollo/Entornos/Docker",
     "Conceptos/Fuertemente Tipado.md",
-    "Conceptos/REST.md",
+    "Conceptos/Arquitecturas/REST.md",
     "Conceptos/Programación Procedimental.md",
     "Desarrollo",
-    "Desarrollo/Lenguajes/C SHARP/NET/ASP.NET.md",
-    "Desarrollo/Lenguajes/C SHARP/NET/Entity Framework.md",
-    "Desarrollo/Lenguajes/C SHARP/NET/Razor.md",
     "Desarrollo/Lenguajes/C SHARP/C SHARP.md",
-    "Desarrollo/Lenguajes/C SHARP/NET/(.NET).md",
     "Conceptos/Programación Genérica.md",
     "Conceptos/P.O.O.md",
     "Conceptos/Paradigmas de Programación.md",
     "Herencia.md",
     "Conceptos/JSON.md",
-    "Conceptos/HTTP.md",
-    "Conceptos/MVC.md",
-    "README.md",
-    "Desarrollo/Lenguajes/C SHARP/Generics.md",
+    "Conceptos/Arquitecturas/HTTP.md",
+    "Conceptos/Arquitecturas/MVC.md",
     "Untitled.canvas",
     "Lenguajes/C SHARP/Sin título.canvas",
     "Paradigmas de Programación",
-    "Desarrollo/Lenguajes/C SHARP/NET",
+    "Desarrollo/Entornos/DOTNET",
     "Conceptos",
-    "Desarrollo/Lenguajes/C",
-    "Desarrollo/Lenguajes/C++",
-    "Desarrollo/Lenguajes/Java",
     "C SHARP/Sin título.canvas"
   ]
 }
