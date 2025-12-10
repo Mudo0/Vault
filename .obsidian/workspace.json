@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "862ff6075f54eaf6",
+        "id": "a3953aea6a6f12c1",
         "type": "tabs",
         "children": [
           {
-            "id": "5a1f6e5e3215b8bc",
+            "id": "4bd58b826bd1f1fe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ToDoList API.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ToDoList API"
+              "title": "New tab"
             }
           }
         ]
@@ -192,44 +188,45 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5a1f6e5e3215b8bc",
+  "active": "4bd58b826bd1f1fe",
   "lastOpenFiles": [
     "Untitled.md",
     "ToDoList API.md",
-    "Conceptos/REST.md",
-    "README.md",
+    "Desarrollo/Bases de datos/Postgres.md",
+    "Desarrollo/Bases de datos",
+    "Desarrollo/Entornos",
+    "Desarrollo/Entornos/Docker/Docker.md",
+    "Desarrollo/Entornos/Docker/Docker en WSL.md",
+    "Desarrollo/Entornos/WSL.md",
     "Conceptos/API.md",
-    "Lenguajes/C SHARP/C SHARP.md",
-    "Lenguajes/C SHARP/Generics.md",
-    "Lenguajes/C SHARP/NET/(.NET).md",
-    "Lenguajes/C SHARP/NET/ASP.NET.md",
-    "Lenguajes/C SHARP/NET/Entity Framework.md",
-    "Lenguajes/C SHARP/NET/Razor.md",
-    "Conceptos/Programación Procedimental.md",
-    "Conceptos/Programación Genérica.md",
-    "Conceptos/Paradigmas de Programación.md",
-    "Conceptos/MVC.md",
-    "Conceptos/P.O.O.md",
     "Conceptos/Código Abierto.md",
-    "Lenguajes/C/C.md",
-    "Lenguajes/C++/C++.md",
-    "Lenguajes/Java/Java.md",
-    "TO DO.md",
+    "Desarrollo/Entornos/Docker",
     "Conceptos/Fuertemente Tipado.md",
-    "Conceptos/GitHub.md",
-    "Clase.md",
-    "Untitled Kanban.md",
+    "Conceptos/REST.md",
+    "Conceptos/Programación Procedimental.md",
+    "Desarrollo",
+    "Desarrollo/Lenguajes/C SHARP/NET/ASP.NET.md",
+    "Desarrollo/Lenguajes/C SHARP/NET/Entity Framework.md",
+    "Desarrollo/Lenguajes/C SHARP/NET/Razor.md",
+    "Desarrollo/Lenguajes/C SHARP/C SHARP.md",
+    "Desarrollo/Lenguajes/C SHARP/NET/(.NET).md",
+    "Conceptos/Programación Genérica.md",
+    "Conceptos/P.O.O.md",
+    "Conceptos/Paradigmas de Programación.md",
+    "Herencia.md",
+    "Conceptos/JSON.md",
+    "Conceptos/HTTP.md",
+    "Conceptos/MVC.md",
+    "README.md",
+    "Desarrollo/Lenguajes/C SHARP/Generics.md",
     "Untitled.canvas",
-    "To Do Trabajo Práctico.md",
     "Lenguajes/C SHARP/Sin título.canvas",
     "Paradigmas de Programación",
-    "Lenguajes/C SHARP/NET",
+    "Desarrollo/Lenguajes/C SHARP/NET",
     "Conceptos",
-    "Lenguajes/C",
-    "Lenguajes/C++",
-    "Lenguajes/Java",
-    "Lenguajes",
-    "C SHARP/Sin título.canvas",
-    "Lenguajes/C SHARP"
+    "Desarrollo/Lenguajes/C",
+    "Desarrollo/Lenguajes/C++",
+    "Desarrollo/Lenguajes/Java",
+    "C SHARP/Sin título.canvas"
   ]
 }
