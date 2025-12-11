@@ -41,7 +41,7 @@
   "30_Tecnologias": "RiCodeView",
   "30_Tecnologias/Docker": "FabDocker",
   "30_Tecnologias/Git": "LiGitGraph",
-  "30_Tecnologias/GitHub.md": "FabGithub",
   "30_Tecnologias/Bases de datos": "IbDatabse",
-  "10_Enciclopedia/Arquitectura": "LiContainer"
+  "10_Enciclopedia/Arquitectura": "LiContainer",
+  "30_Tecnologias/Git/GitHub.md": "FabGithub"
 }
