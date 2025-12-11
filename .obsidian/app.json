@@ -2,5 +2,8 @@
   "alwaysUpdateLinks": true,
   "showLineNumber": false,
   "promptDelete": false,
-  "spellcheck": false
+  "spellcheck": false,
+  "attachmentFolderPath": "/",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00_Inbox"
 }

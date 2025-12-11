@@ -1,0 +1,4 @@
+- Lenguaje de alto nivel
+- Orientado a objetos
+- Portable
+---

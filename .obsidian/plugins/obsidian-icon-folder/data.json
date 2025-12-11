@@ -1,0 +1,47 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiContainer",
+      "IbDatabse",
+      "LiGitGraph",
+      "FabGithub",
+      "LiGithub"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "custom",
+    "debugMode": false,
+    "useInternalPlugins": true
+  },
+  "40_Proyectos": "LiAnvil",
+  "00_Inbox": "LiMailOpen",
+  "10_Enciclopedia": "RaBook",
+  "20_Recetario": "LiListTree",
+  "30_Tecnologias": "RiCodeView",
+  "30_Tecnologias/Docker": "FabDocker",
+  "30_Tecnologias/Git": "LiGitGraph",
+  "30_Tecnologias/GitHub.md": "FabGithub",
+  "30_Tecnologias/Bases de datos": "IbDatabse",
+  "10_Enciclopedia/Arquitectura": "LiContainer"
+}
