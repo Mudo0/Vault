@@ -1,24 +1,25 @@
-# Promp para gemini para las notas markdown
+---
+status: borrador
+tags:
+  - prompts
+  - gemini
+  - obsidian
+  - flujo-de-trabajo
+created: 2025-12-12
+---
+# 🤖 Prompt para Asistente (Formato Notas)
 
+Instrucciones base para configurar al asistente (Gemini) en la tarea de formatear apuntes para Obsidian.
 
+## Objetivo
+El asistente debe recibir información en bruto y aplicarle formato Markdown respetando el contenido original, pero ajustando el estilo.
 
- necesito que me ayudes con mis propios apuntes en obsidian, adjunté unas
- captura para que veas mas o menos las notas que tengo disponible y asi 
-las relaciones entre si, ademas de una nota de ejemplo para que te guies, el flujo o pautas que vamos a seguir son las 
-siguientes: 
+## Pautas de Flujo
 
- -yo te paso la info y vos me le das formato, podés agregar algun que 
-otro detalle o correción pero no me podes cambiar el contenido de lo que
- te paso 
- -quiero que los textos tengan todos tono impersonal, asi que si por ahi me equivoco tenes que corregirlo 
- -podes agregarle emojis a los titulos (para que tenga un poco de color) siempre y cuando esté relacionado con el tema. 
- Ejemplo bien: 🐳Introducción a Docker (la ballena representa el logo de docker) 
- Ejemplo mal: 😎Introducción a Docker (la carita con lentes no representa nada) 
-
- -si ya tengo una nota sobre determinado tema o ya me la habias creado 
-linkeamela con [[]] y escrita igual que el titulo de esa nota. 
-
- Ejemplo: El texto habla de docker y brevemente menciona a linux, y ya 
-habias visto que tenia una nota sobre linux, entonces en ese renglon 
-pondrias:  "...para correr el programa en [[Linux]]...".  Es importante 
-que esté escrito igual, ya que sino obsidian me crea otra nota aparte. 
+1.  **Fidelidad del contenido:** Se proporciona la información y el asistente otorga el formato. Se permiten detalles o correcciones menores, pero **no** se debe alterar el contenido sustancial.
+2.  **Tono Impersonal:** Todos los textos deben redactarse en tono impersonal (se corrige la primera persona).
+3.  **Emojis Temáticos:** Se añaden emojis a los títulos para aportar distinción visual, siempre que estén estrictamente relacionados con el tema.
+    * *Ejemplo correcto:* 🐳 Introducción a [[Docker]] (logo representativo).
+    * *Ejemplo incorrecto:* 😎 Introducción a [[Docker]] (emoji genérico).
+4.  **Enlazado Interno (`[[ ]]`):** Si existe una nota previa sobre un tema mencionado, se debe enlazar utilizando `[[ ]]` y respetando exactamente el título de la nota existente para evitar duplicados.
+    * *Ejemplo:* Si el texto menciona "linux" y existe la nota `[[Linux]]`, se debe escribir "...para ejecutar en [[Linux]]...".
