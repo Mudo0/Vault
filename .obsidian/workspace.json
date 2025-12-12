@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "10c24603b7d1727d",
+        "id": "786e954e15098c3e",
         "type": "tabs",
         "children": [
           {
-            "id": "14f6ea548233d4dc",
+            "id": "d3361a05dc10c820",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20_Recetario/Cheatsheets/Prompts/prompt-markdown.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "prompt-markdown"
+              "title": "New tab"
             }
           }
         ]
@@ -152,13 +148,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20_Recetario/Cheatsheets/Prompts/prompt-markdown.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of prompt-markdown"
+              "title": "Outline"
             }
           },
           {
@@ -202,12 +197,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "14f6ea548233d4dc",
+  "active": "d3361a05dc10c820",
   "lastOpenFiles": [
+    "00_Inbox/00_To Do.md",
+    "20_Recetario/Snippets/Custom User Errors.md",
+    "20_Recetario/Cheatsheets/Prompts/prompt-markdown.md",
     "20_Recetario/Cheatsheets/Prompts/prompt-info.md",
     "20_Recetario/Guias/Errores Custom con ErrorOr.md",
-    "20_Recetario/Cheatsheets/Prompts/prompt-markdown.md",
-    "00_Inbox/TO DO.md",
     "20_Recetario/Guias/Multi pusheo git.md",
     "00_Inbox/SSH.md",
     "10_Enciclopedia/Fundamentos/JSON.md",
@@ -231,7 +227,6 @@
     "10_Enciclopedia/Fundamentos/Fuertemente Tipado.md",
     "10_Enciclopedia/Fundamentos/Código Abierto.md",
     "00_Inbox/URI.md",
-    "00_Inbox/Int.md",
     "00_Inbox/Untitled.base",
     "20_Recetario/Cheatsheets/Prompts",
     "30_Tecnologias/Git",
