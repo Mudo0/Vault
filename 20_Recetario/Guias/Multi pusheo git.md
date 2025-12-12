@@ -7,7 +7,7 @@ tags:
   - wsl
 created: 2025-12-10
 ---
-# 🔐 Configuración SSH Multi-Cuenta ([[Linux]]/[[WSL]])
+# 🔐 Configuración [[SSH]] Multi-Cuenta ([[Linux]]/[[WSL]])
 
 **Objetivo:** Utilizar dos cuentas de [[GitHub]] (Personal y Estudiante) en el mismo equipo sin conflictos de permisos.
 
