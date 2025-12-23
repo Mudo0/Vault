@@ -37,16 +37,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20_Recetario/Guias/SLNX.md",
+                "file": "30_Tecnologias/DotNet/(.NET).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SLNX"
+              "title": "(.NET)"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#css",
+                "query": "cli",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -177,12 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "30_Tecnologias/DotNet/(.NET).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of (.NET)"
             }
           },
           {
@@ -226,44 +227,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fb57d80f9064a25d",
+  "active": "6bf3afbbc8155e1a",
   "lastOpenFiles": [
-    "00_Inbox/web.md",
-    "00_Inbox/Peer.md",
+    "20_Recetario/Guias/Dotnet/ErrorOr.md",
     "00_Inbox/00_To Do.md",
-    "30_Tecnologias/DotNet/Web/Proyecto/Pagination.md",
-    "30_Tecnologias/DotNet/Web/Proyecto/Directory.Build.props.md",
-    "30_Tecnologias/DotNet/Web/Proyecto/Problem + Details.md",
-    "30_Tecnologias/DotNet/Web/Proyecto/Program.cs.md",
-    "30_Tecnologias/DotNet/Web/ASP.NET.md",
-    "30_Tecnologias/DotNet/Web/Entity Framework.md",
-    "30_Tecnologias/DotNet/Web/LINQ.md",
     "30_Tecnologias/DotNet/(.NET).md",
-    "30_Tecnologias/DotNet/01_Indice.md",
-    "20_Recetario/Guias/SLNX.md",
-    "00_Inbox/CLI.md",
-    "00_Inbox/Git.md",
-    "00_Inbox/XML.md",
-    "00_Inbox/SSH.md",
-    "00_Inbox/String.md",
-    "00_Inbox/Untitled.md",
-    "00_Inbox/URI.md",
-    "30_Tecnologias/DotNet/Razor.md",
+    "20_Recetario/Snippets/CSHARP/Custom User Errors.md",
+    "20_Recetario/Guias/Dotnet/Pagination.md",
+    "20_Recetario/Guias/Dotnet/Directory.Build.props.md",
     "10_Enciclopedia/Lenguajes/C SHARP/Pattern Matching.md",
-    "20_Recetario/Snippets/Custom User Errors.md",
-    "20_Recetario/Cheatsheets/Prompts/prompt-markdown.md",
-    "20_Recetario/Cheatsheets/Prompts/prompt-info.md",
-    "20_Recetario/Guias/Errores Custom con ErrorOr.md",
+    "20_Recetario/Snippets/CSHARP",
+    "10_Enciclopedia/Lenguajes/C SHARP/C SHARP.md",
+    "10_Enciclopedia/Lenguajes/C SHARP/Generics.md",
+    "20_Recetario/Guias/Dotnet/SLNX.md",
+    "10_Enciclopedia/Entornos/Dotnet/01_Definición.md",
+    "10_Enciclopedia/Entornos/Dotnet/ASP.NET.md",
+    "00_Inbox/CLI.md",
+    "00_Inbox/Visual Studio.md",
+    "00_Inbox/NuGet.md",
+    "30_Tecnologias/Docker/Docker.md",
+    "20_Recetario/Guias/Dotnet/Problem + Details.md",
+    "20_Recetario/Guias/Dotnet/Program.cs.md",
+    "20_Recetario/Guias/Dotnet",
+    "20_Recetario/Guias/Multi pusheo git.md",
+    "10_Enciclopedia/Entornos/Dotnet/Entity Framework.md",
+    "10_Enciclopedia/Entornos/Dotnet/Razor.md",
+    "10_Enciclopedia/Entornos/Dotnet/LINQ.md",
+    "10_Enciclopedia/Fundamentos/Generales/Clase.md",
+    "10_Enciclopedia/Fundamentos/Generales/Código Abierto.md",
+    "10_Enciclopedia/Fundamentos/Generales",
+    "10_Enciclopedia/Entornos/Dotnet",
+    "10_Enciclopedia/Entornos",
+    "30_Tecnologias/Docker/Docker en WSL.md",
     "10_Enciclopedia/Fundamentos/Paradigmas",
     "Untitled",
     "00_Inbox/Untitled.base",
     "20_Recetario/Cheatsheets/Prompts",
     "30_Tecnologias/Git",
-    "30_Tecnologias/Docker",
-    "30_Tecnologias/DotNet",
-    "20_Recetario/Guias",
-    "20_Recetario/Cheatsheets",
-    "20_Recetario/Configs",
     "Untitled.canvas",
     "Lenguajes/C SHARP/Sin título.canvas",
     "C SHARP/Sin título.canvas"
