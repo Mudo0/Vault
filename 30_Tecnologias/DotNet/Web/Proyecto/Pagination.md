@@ -1,3 +1,13 @@
+---
+status: final
+tags:
+  - dotnet
+  - backend
+  - api
+  - csharp
+  - optimizacion
+created: 2025-12-16
+---
 # 📑 Paginación
 
 ## 1. ¿Qué es y para qué sirve?
