@@ -33,7 +33,7 @@ Es el almacén donde se guardan las imágenes. El más conocido es Docker Hub (p
 
 ### Objetos
 * **[[Imágenes]]:** Son plantillas de solo lectura (los "planos") construidas por capas.
-* **[[Contenedor|Contenedores]]:** Son las instancias ejecutables y vivas de dichas imágenes.
+* **[[Image & Container|Contenedores]]:** Son las instancias ejecutables y vivas de dichas imágenes.
 
 ---
 

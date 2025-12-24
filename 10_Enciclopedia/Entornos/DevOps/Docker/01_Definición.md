@@ -10,7 +10,7 @@ created: 2025-12-23
 
 # 🐳 Docker
 
-**Docker** es una plataforma abierta que permite empaquetar aplicaciones en unidades estandarizadas llamadas **[[Contenedor|Contenedores]]**. Estos contenedores incluyen todo lo necesario para que el software se ejecute: código, herramientas del sistema, bibliotecas y configuraciones.
+**Docker** es una plataforma abierta que permite empaquetar aplicaciones en unidades estandarizadas llamadas **[[Image & Container|Contenedores]]**. Estos contenedores incluyen todo lo necesario para que el software se ejecute: código, herramientas del sistema, bibliotecas y configuraciones.
 
 Su objetivo principal es separar la aplicación de la infraestructura, permitiendo entregar software rápidamente y asegurando que funcione igual en cualquier entorno.
 

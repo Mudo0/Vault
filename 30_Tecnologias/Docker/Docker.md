@@ -16,7 +16,7 @@ created: 2025-12-23
 
 ### Core
 - [[10_Enciclopedia/Entornos/DevOps/Docker/01_Definición|Definición]] y [[Arquitectura|Arquitectura]]
-- [[Contenedor|Imagen vs Contenedor]] (Diferencia clave)
+- [[Image & Container|Imagen vs Contenedor]] (Diferencia clave)
 - [[Docker Daemon]]
 - [[Volúmenes]] (Persistencia de datos)
 - [[Redes en Docker]] (Bridge, Host, Overlay)
