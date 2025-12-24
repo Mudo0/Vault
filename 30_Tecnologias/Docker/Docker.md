@@ -2,49 +2,47 @@
 status: borrador
 tags:
   - docker
-  - backend
-  - software
+  - devops
+  - navegacion
+  - moc
+  - indice
 created: 2025-12-23
 ---
+# 🐳 Hub Docker
+> Plataforma de containerización para desarrollo y despliegue.
 
-# 🐳 Docker
+## 🧠 Teoría y Fundamentos
+*Conceptos de arquitectura y virtualización ligera.*
 
-**Docker** es una plataforma abierta que permite empaquetar aplicaciones en unidades estandarizadas llamadas **Contenedores**. Estos contenedores incluyen todo lo necesario para que el software se ejecute: código, herramientas del sistema, bibliotecas y configuraciones.
+### Core
+- [[10_Enciclopedia/Entornos/DevOps/Docker/01_Definición|Definición]] y [[Arquitectura|Arquitectura]]
+- [[Contenedor|Imagen vs Contenedor]] (Diferencia clave)
+- [[Docker Daemon]]
+- [[Volúmenes]] (Persistencia de datos)
+- [[Redes en Docker]] (Bridge, Host, Overlay)
 
-Su objetivo principal es separar la aplicación de la infraestructura, permitiendo entregar software rápidamente y asegurando que funcione igual en cualquier entorno.
-
----
-
-## 🧠 Explicación simplificada
-
-El concepto de contenedor se entiende mejor con la analogía del **Tupper (Recipiente de comida)**:
-
-- **La Comida (Tu App):** Lo que quieres transportar (código, dependencias).
-- **El Tupper (El Contenedor):** Es el envase estandarizado. Mantiene la comida aislada, evita que se mezcle con otras cosas y asegura que no se derrame.
-- **La Mochila (El Servidor):** No importa qué mochila uses, si la comida está en el tupper, no se va a ensuciar ni a romper.
-
-Sin Docker, es como llevar arroz suelto en el bolsillo: se mezcla con las llaves, mancha la tela y es un lío limpiarlo.
+### Conceptos Relacionados
+- [[Microservicios]]
+- [[Virtualización vs Containerización]]
 
 ---
 
-## 🏭 Ejemplos en la Industria
+## 🛠️ Recetario (Cómo se hace...)
+*Comandos, configuración de entornos y scripts.*
 
-* **Microservicios:** Empresas como Netflix o Uber no usan un "servidor gigante", sino miles de pequeños contenedores que se crean y destruyen según la demanda.
-* **CI/CD:** Las pruebas automáticas de GitHub corren en contenedores efímeros que garantizan un entorno limpio cada vez.
+### ⚙️ Configuración e Instalación
+- [[Instalar Docker en Linux]] (Ubuntu/Debian)
+- [[Docker Desktop]] (Configuración en Windows)
+- [[Post-installation steps]] (Permisos de usuario sin sudo)
+
+### 🧱 Snippets y Comandos
+- **Gestión de vida:** [[Comandos Básicos Docker]] (run, stop, ps, rm)
+- **Limpieza:** [[Docker Prune]] (Eliminar imágenes y contenedores huerfanos)
+- **Orquestación local:** [[Docker Compose]] (`docker-compose.yaml`)
+- **Dockerfiles:** [[Crear un Dockerfile para .NET]]
 
 ---
-
-## 💻 Snippets de Configuración (Run Once)
-
-Para desarrollo local, usamos Docker para levantar servicios de infraestructura sin instalar basura en Windows.
-
-### 🐘 PostgreSQL
-Base de datos relacional estándar. [[Postgres]]
-
-```bash
-docker run --name mi-postgres \
-  -e POSTGRES_USER=admin \
-  -e POSTGRES_PASSWORD=miPassword \
-  -v pg_data:/var/lib/postgresql/data \
-  -p 5432:5432 \
-  -d postgres
+## 🔌 Integraciones
+*Cómo implementar Docker en mis desarrollos.*
+- [[Dockerizar API .NET]]
+- [[Dockerizar Frontend Angular]]

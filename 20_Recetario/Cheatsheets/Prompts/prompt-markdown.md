@@ -19,7 +19,7 @@ El asistente debe recibir información en bruto y aplicarle formato Markdown res
 1.  **Fidelidad del contenido:** Se proporciona la información y el asistente otorga el formato. Se permiten detalles o correcciones menores, pero **no** se debe alterar el contenido sustancial.
 2.  **Tono Impersonal:** Todos los textos deben redactarse en tono impersonal (se corrige la primera persona).
 3.  **Emojis Temáticos:** Se añaden emojis a los títulos para aportar distinción visual, siempre que estén estrictamente relacionados con el tema.
-    * *Ejemplo correcto:* 🐳 Introducción a [[Docker]] (logo representativo).
-    * *Ejemplo incorrecto:* 😎 Introducción a [[Docker]] (emoji genérico).
+    * *Ejemplo correcto:* 🐳 Introducción a [[10_Enciclopedia/Entornos/DevOps/Docker/01_Definición]] (logo representativo).
+    * *Ejemplo incorrecto:* 😎 Introducción a [[10_Enciclopedia/Entornos/DevOps/Docker/01_Definición]] (emoji genérico).
 4.  **Enlazado Interno (`[[ ]]`):** Si existe una nota previa sobre un tema mencionado, se debe enlazar utilizando `[[ ]]` y respetando exactamente el título de la nota existente para evitar duplicados.
     * *Ejemplo:* Si el texto menciona "linux" y existe la nota `[[Linux]]`, se debe escribir "...para ejecutar en [[Linux]]...".

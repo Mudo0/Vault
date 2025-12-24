@@ -8,45 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d3361a05dc10c820",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_Inbox/00_To Do.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "00_To Do"
-            }
-          },
-          {
-            "id": "fb57d80f9064a25d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "6bf3afbbc8155e1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30_Tecnologias/DotNet/(.NET).md",
+                "file": "30_Tecnologias/Docker/Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(.NET)"
+              "title": "Docker"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Tecnologias/DotNet/(.NET).md",
+                "file": "30_Tecnologias/Docker/Docker.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of (.NET)"
+              "title": "Outline of Docker"
             }
           },
           {
@@ -229,41 +204,42 @@
   },
   "active": "6bf3afbbc8155e1a",
   "lastOpenFiles": [
-    "20_Recetario/Guias/Dotnet/ErrorOr.md",
-    "00_Inbox/00_To Do.md",
-    "30_Tecnologias/DotNet/(.NET).md",
-    "20_Recetario/Snippets/CSHARP/Custom User Errors.md",
-    "20_Recetario/Guias/Dotnet/Pagination.md",
-    "20_Recetario/Guias/Dotnet/Directory.Build.props.md",
-    "10_Enciclopedia/Lenguajes/C SHARP/Pattern Matching.md",
-    "20_Recetario/Snippets/CSHARP",
-    "10_Enciclopedia/Lenguajes/C SHARP/C SHARP.md",
-    "10_Enciclopedia/Lenguajes/C SHARP/Generics.md",
-    "20_Recetario/Guias/Dotnet/SLNX.md",
-    "10_Enciclopedia/Entornos/Dotnet/01_Definición.md",
-    "10_Enciclopedia/Entornos/Dotnet/ASP.NET.md",
-    "00_Inbox/CLI.md",
-    "00_Inbox/Visual Studio.md",
-    "00_Inbox/NuGet.md",
+    "10_Enciclopedia/Entornos/DevOps/Docker/Imagen.md",
+    "10_Enciclopedia/Entornos/DevOps/Docker/Arquitectura.md",
+    "Untitled",
     "30_Tecnologias/Docker/Docker.md",
-    "20_Recetario/Guias/Dotnet/Problem + Details.md",
-    "20_Recetario/Guias/Dotnet/Program.cs.md",
+    "00_Inbox/Docker Daemon.md",
+    "00_Inbox/Peer.md",
+    "00_Inbox/P2P.md",
+    "00_Inbox/Cliente-Servidor.md",
+    "10_Enciclopedia/Entornos/DevOps/Docker/01_Definición.md",
+    "10_Enciclopedia/Entornos/DevOps/Docker/Virtualización vs Containerización.md",
+    "00_Inbox/Redes en Docker.md",
+    "00_Inbox/NuGet.md",
+    "00_Inbox/Microservicios.md",
+    "00_Inbox/Linux.md",
+    "00_Inbox/HTML.md",
+    "00_Inbox/GUI.md",
+    "00_Inbox/Git.md",
+    "00_Inbox/Docker Desktop.md",
+    "10_Enciclopedia/Fundamentos/Generales/Programación Procedimental.md",
+    "10_Enciclopedia/Fundamentos/Generales/Programación Genérica.md",
+    "10_Enciclopedia/Fundamentos/Paradigmas/P.O.O/P.O.O.md",
+    "10_Enciclopedia/Fundamentos/Paradigmas/P.O.O/Objeto.md",
+    "10_Enciclopedia/Fundamentos/Paradigmas/P.O.O/Clase.md",
+    "10_Enciclopedia/Fundamentos/Paradigmas/P.O.O",
+    "10_Enciclopedia/Fundamentos/Generales/CLI.md",
+    "00_Inbox/XML.md",
+    "00_Inbox/00_To Do.md",
+    "10_Enciclopedia/Entornos/DevOps/Docker/Contenedor.md",
+    "10_Enciclopedia/Entornos/DevOps",
+    "10_Enciclopedia/Entornos/DevOps/Docker",
+    "20_Recetario/Snippets/CSHARP",
     "20_Recetario/Guias/Dotnet",
-    "20_Recetario/Guias/Multi pusheo git.md",
-    "10_Enciclopedia/Entornos/Dotnet/Entity Framework.md",
-    "10_Enciclopedia/Entornos/Dotnet/Razor.md",
-    "10_Enciclopedia/Entornos/Dotnet/LINQ.md",
-    "10_Enciclopedia/Fundamentos/Generales/Clase.md",
-    "10_Enciclopedia/Fundamentos/Generales/Código Abierto.md",
     "10_Enciclopedia/Fundamentos/Generales",
     "10_Enciclopedia/Entornos/Dotnet",
     "10_Enciclopedia/Entornos",
-    "30_Tecnologias/Docker/Docker en WSL.md",
     "10_Enciclopedia/Fundamentos/Paradigmas",
-    "Untitled",
-    "00_Inbox/Untitled.base",
-    "20_Recetario/Cheatsheets/Prompts",
-    "30_Tecnologias/Git",
     "Untitled.canvas",
     "Lenguajes/C SHARP/Sin título.canvas",
     "C SHARP/Sin título.canvas"
