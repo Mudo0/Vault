@@ -20,18 +20,14 @@ classDiagram
     class Game {
         +Long id
         +String status
-        +int currentTurn
-        +rollDice()
-        +nextTurn()
+      
     }
 
     class Player {
         +Long id
         +String name
         +double money
-        +boolean inJail
-        +buyProperty()
-        +payRent()
+
     }
 
     class Board {
@@ -43,31 +39,23 @@ classDiagram
         +Long id
         +int positionIndex
         +String name
-        +landOn(Player p)
+
     }
 
     class PropertyBox {
-        +double purchasePrice
-        +double rentValue
-        +int improvementCount
-        +buy(Player p)
-        +calculateRent()
+
     }
 
     class SpecialBox {
-        +String type
-        +action()
+
     }
 
     class CardBox {
-        +String cardType
-        +drawCard()
+
     }
 
     class Province {
-        +String name
-        +String color
-        +checkFullSet(Player p)
+
     }
 ```
 

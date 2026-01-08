@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40_Proyectos/Estanciero/Annotations/@Inheritance(strategy = SINGLE_TABLE).md",
+                "file": "20_Recetario/Cheatsheets/Commits conventions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "@Inheritance(strategy = SINGLE_TABLE)"
+              "title": "Commits conventions"
             }
           }
         ]
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40_Proyectos/Estanciero/Annotations/@Inheritance(strategy = SINGLE_TABLE).md",
+                "file": "20_Recetario/Cheatsheets/Commits conventions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of @Inheritance(strategy = SINGLE_TABLE)"
+              "title": "Outline of Commits conventions"
             }
           },
           {
@@ -216,8 +216,8 @@
   "active": "1fc1721749276071",
   "lastOpenFiles": [
     "40_Proyectos/Estanciero/Dominio.md",
-    "40_Proyectos/Estanciero/Annotations/@JoinColumn.md",
     "40_Proyectos/Estanciero/Annotations/@Inheritance(strategy = SINGLE_TABLE).md",
+    "40_Proyectos/Estanciero/Annotations/@JoinColumn.md",
     "00_Inbox/Hibernate.md",
     "00_Inbox/JPA.md",
     "40_Proyectos/Estanciero/Annotations.md",
