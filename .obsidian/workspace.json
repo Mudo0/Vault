@@ -8,45 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6bf3afbbc8155e1a",
+            "id": "1fc1721749276071",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20_Recetario/Cheatsheets/Commits conventions.md",
+                "file": "40_Proyectos/Estanciero/Annotations/@Inheritance(strategy = SINGLE_TABLE).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Commits conventions"
-            }
-          },
-          {
-            "id": "b163626f7872c35d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10_Enciclopedia/Entornos/DevOps/Docker/Image & Container.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Image & Container"
-            }
-          },
-          {
-            "id": "a1ababec6761a7fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10_Enciclopedia/Entornos/Dotnet/01_Definición.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01_Definición"
+              "title": "@Inheritance(strategy = SINGLE_TABLE)"
             }
           }
         ]
@@ -180,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20_Recetario/Cheatsheets/Commits conventions.md",
+                "file": "40_Proyectos/Estanciero/Annotations/@Inheritance(strategy = SINGLE_TABLE).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Commits conventions"
+              "title": "Outline of @Inheritance(strategy = SINGLE_TABLE)"
             }
           },
           {
@@ -208,6 +180,16 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "c60f70a8d1fccbb7",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
           }
         ],
         "currentTab": 4
@@ -227,13 +209,31 @@
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-kanban:Create new board": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6bf3afbbc8155e1a",
+  "active": "1fc1721749276071",
   "lastOpenFiles": [
+    "40_Proyectos/Estanciero/Dominio.md",
+    "40_Proyectos/Estanciero/Annotations/@JoinColumn.md",
+    "40_Proyectos/Estanciero/Annotations/@Inheritance(strategy = SINGLE_TABLE).md",
+    "00_Inbox/Hibernate.md",
+    "00_Inbox/JPA.md",
+    "40_Proyectos/Estanciero/Annotations.md",
+    "40_Proyectos/Estanciero/Annotations",
+    "20_Recetario/Snippets/Java/Ejemplo Entity.md",
     "40_Proyectos/Estanciero Proyecto.md",
+    "40_Proyectos/Estanciero",
     "20_Recetario/Cheatsheets/Commits conventions.md",
+    "20_Recetario/Snippets/Java",
+    "00_Inbox/Dependencias basicas SpringBoot.md",
+    "00_Inbox/Spring Boot.md",
+    "00_Inbox/Gradle.md",
+    "00_Inbox/Maven.md",
+    "00_Inbox/Kubernetes.md",
+    "00_Inbox/01_server fotos.md",
+    "00_Inbox/00_To Do.md",
     "00_Inbox/HTML.md",
     "10_Enciclopedia/Fundamentos/Estructuras de datos",
     "00_Inbox/Windows.md",
@@ -246,28 +246,11 @@
     "30_Tecnologias/Docker/Docker.md",
     "10_Enciclopedia/Herramientas",
     "10_Enciclopedia/Entornos/Dotnet/01_Definición.md",
-    "30_Tecnologias/DotNet/(.NET).md",
-    "10_Enciclopedia/Arquitectura/P2P.md",
-    "10_Enciclopedia/Fundamentos/Generales/GUI.md",
-    "00_Inbox/Android.md",
-    "10_Enciclopedia/Entornos/DevOps/Docker/Image & Container.md",
-    "10_Enciclopedia/Fundamentos/Estructuras de datos/Int.md",
-    "10_Enciclopedia/Protocolos/SSH.md",
-    "00_Inbox/web.md",
-    "10_Enciclopedia/Arquitectura/Peer.md",
-    "00_Inbox/XML.md",
-    "10_Enciclopedia/Lenguajes/JavaScript.md",
-    "00_Inbox/Python.md",
-    "20_Recetario/Cheatsheets/Prompts/prompt-info.md",
-    "30_Tecnologias/WSL.md",
-    "Untitled",
     "10_Enciclopedia/Fundamentos/Paradigmas/P.O.O",
     "10_Enciclopedia/Entornos/DevOps",
     "10_Enciclopedia/Entornos/DevOps/Docker",
     "20_Recetario/Snippets/CSHARP",
     "20_Recetario/Guias/Dotnet",
-    "10_Enciclopedia/Fundamentos/Generales",
-    "10_Enciclopedia/Entornos/Dotnet",
     "Untitled.canvas",
     "Lenguajes/C SHARP/Sin título.canvas",
     "C SHARP/Sin título.canvas"
