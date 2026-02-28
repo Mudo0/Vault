@@ -11,7 +11,7 @@ created: 2026-01-06
 
 # 🍃 ¿Qué es [[Spring Boot]]?
 
-[[Spring Boot]] se considera el estándar de la industria para el desarrollo en **[[Java]]** actual, principalmente porque elimina la complejidad de la configuración inicial.
+Spring Boot es un framework de [[Código Abierto]] para Java que simplifica enormemente la creación de aplicaciones basadas en el framework Spring, permitiendo desarrollar microservicios y aplicaciones web listas para producción rápidamente, sin configuraciones complejas, gracias a características como la autoconfiguración, los "Starters" (dependencias preconfiguradas) y servidores web integrados, enfocándose en la productividad del desarrollador
 
 Para comprender su función, se puede concebir al **Spring Framework** tradicional como un motor potente pero desensamblado: requiere conectar cables, configurar combustible y ajustar componentes manualmente (archivos **[[XML]]**, configuración de *beans*, servidores de aplicaciones externos, etc.).
 
