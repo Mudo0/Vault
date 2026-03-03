@@ -8,48 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1fc1721749276071",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10_Enciclopedia/Entornos/Angular/EventEmitter.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "EventEmitter"
-            }
-          },
-          {
-            "id": "0945b334ddad054a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_Inbox/00_To Do.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "00_To Do"
-            }
-          },
-          {
-            "id": "b213ca2bf463a9a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_Inbox/Pipeline Behaviour.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Pipeline Behaviour"
-            }
-          },
-          {
             "id": "c24042d6135e7e26",
             "type": "leaf",
             "state": {
@@ -63,8 +21,7 @@
               "title": "JWT"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -260,6 +217,7 @@
   "lastOpenFiles": [
     "10_Enciclopedia/Fundamentos/Seguridad/JWT/SecretKey, Issuer y Audience.md",
     "10_Enciclopedia/Fundamentos/Seguridad/JWT/JWT.md",
+    "10_Enciclopedia/Fundamentos/Seguridad/JWT/Token.md",
     "10_Enciclopedia/Fundamentos/Seguridad/JWT",
     "20_Recetario/Guias/Dotnet/Autenticacion Config.md",
     "10_Enciclopedia/Fundamentos/Seguridad",
@@ -287,7 +245,6 @@
     "00_Inbox/Middleware.md",
     "00_Inbox/MediatR.md",
     "00_Inbox/ASP.NET Core.md",
-    "10_Enciclopedia/Entornos/Dotnet/ASP.NET.md",
     "30_Tecnologias/Angular",
     "10_Enciclopedia/Entornos/Angular",
     "10_Enciclopedia/Entornos/Java",
