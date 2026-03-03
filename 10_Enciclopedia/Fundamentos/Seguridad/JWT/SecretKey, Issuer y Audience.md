@@ -43,8 +43,6 @@ Define el destinatario final que tiene permitido aceptar y procesar el token.
 ---
 ## 📝 Resumen de Validación
 
-
-
 * **SecretKey:** Evita la falsificación o alteración de los datos del token.
 * **Issuer:** Asegura que el token fue creado por la fuente esperada.
 * **Audience:** Asegura que el token se está utilizando en el sistema para el cual fue emitido.

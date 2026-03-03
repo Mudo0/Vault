@@ -3,8 +3,6 @@
 
 El patrón estándar para devolver errores en [[API|APIs]] [[HTTP]], conocido como "Problem Details for HTTP APIs " (RFC 7807). En lugar de crear estructuras [[JSON]] personalizadas, se utiliza este formato universalmente aceptado.
 
-  
-
 ## 1. Estructura del JSON (Type + Details)
 
 El objeto [[JSON]] estándar contiene los siguientes campos:
