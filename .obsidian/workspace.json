@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Enciclopedia/Protocolos/STOMP.md",
+                "file": "10_Enciclopedia/Lenguajes/C SHARP/Pattern Matching.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STOMP"
+              "title": "Pattern Matching"
             }
           }
         ],
@@ -181,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10_Enciclopedia/Protocolos/STOMP.md",
+                "file": "10_Enciclopedia/Lenguajes/C SHARP/Pattern Matching.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de STOMP"
+              "title": "Esquema de Pattern Matching"
             }
           },
           {
@@ -244,35 +244,35 @@
   },
   "active": "eda7af35ef24b3d3",
   "lastOpenFiles": [
-    "00_Inbox/MQTT.md",
+    "10_Enciclopedia/Lenguajes/C SHARP/AsNoTracking().md",
+    "10_Enciclopedia/Lenguajes/C SHARP/Pattern Matching.md",
+    "10_Enciclopedia/Lenguajes/C SHARP/Generics.md",
+    "10_Enciclopedia/Lenguajes/C SHARP/C SHARP.md",
+    "20_Recetario/Guias/Dotnet/Autenticacion Config.md",
+    "20_Recetario/Guias/Dotnet/ErrorOr.md",
+    "20_Recetario/Guias/Dotnet/Pagination.md",
+    "20_Recetario/Guias/Dotnet/Directory.Build.props.md",
+    "20_Recetario/Snippets/CSHARP/Custom User Errors.md",
+    "20_Recetario/Snippets/CSHARP/JWT/Program.cs Config.md",
+    "20_Recetario/Snippets/CSHARP/JWT/app.settings Config.md",
+    "30_Tecnologias/DotNet/(.NET).md",
+    "00_Inbox/Node.js.md",
+    "10_Enciclopedia/Lenguajes/Java/Method Reference.md",
+    "10_Enciclopedia/Lenguajes/Java/Java.md",
+    "00_Inbox/CQRS.md",
+    "00_Inbox/00_To Do.md",
+    "00_Inbox/01_server fotos.md",
     "10_Enciclopedia/Protocolos/STOMP.md",
+    "00_Inbox/MQTT.md",
     "00_Inbox/AMQP.md",
     "00_Inbox/RabbitMQ.md",
     "00_Inbox/React.md",
     "00_Inbox/Message Broker.md",
-    "00_Inbox/00_To Do.md",
     "10_Enciclopedia/Fundamentos/Seguridad/JWT/JWT.md",
-    "00_Inbox/AsNoTracking().md",
     "Sin nombre",
     "10_Enciclopedia/Fundamentos/Seguridad/JWT/SecretKey, Issuer y Audience.md",
-    "10_Enciclopedia/Fundamentos/Seguridad/JWT/Token.md",
     "10_Enciclopedia/Fundamentos/Seguridad/JWT",
-    "20_Recetario/Guias/Dotnet/Autenticacion Config.md",
     "10_Enciclopedia/Fundamentos/Seguridad",
-    "00_Inbox/JPA.md",
-    "00_Inbox/Docker Desktop.md",
-    "00_Inbox/Docker Daemon.md",
-    "00_Inbox/Dependencias basicas SpringBoot.md",
-    "00_Inbox/Cross-Cutting Concerns.md",
-    "00_Inbox/CQRS.md",
-    "00_Inbox/01_server fotos.md",
-    "00_Inbox/Android.md",
-    "20_Recetario/Cheatsheets/Commits conventions.md",
-    "20_Recetario/Guias/Dotnet/Directory.Build.props.md",
-    "20_Recetario/Guias/Dotnet/Problem + Details.md",
-    "20_Recetario/Guias/Dotnet/Pagination.md",
-    "20_Recetario/Guias/Dotnet/ErrorOr.md",
-    "20_Recetario/Snippets/CSHARP/JWT/app.settings Config.md",
     "20_Recetario/Snippets/CSHARP/JWT",
     "20_Recetario/Guias/Dotnet/JWT",
     "30_Tecnologias/Angular",
