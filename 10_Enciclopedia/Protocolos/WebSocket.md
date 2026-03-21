@@ -1,5 +1,5 @@
 ---
-status: borrador
+status: final
 tags:
   - web
   - websocket
@@ -17,10 +17,7 @@ Para comprender su utilidad, resulta útil compararlo con el protocolo **[[HTTP]
 * **[[HTTP]] Tradicional:** Es unidireccional y se basa en el modelo de "petición-respuesta". El cliente (navegador) solicita información y el servidor responde. El servidor no puede enviar datos si el cliente no los ha solicitado previamente, y la conexión se cierra tras cada respuesta.
 * **[[WebSocket]]:** Funciona como una llamada telefónica. Una vez establecida la conexión entre cliente y servidor, la línea permanece abierta. Cualquiera de las partes puede enviar datos en cualquier momento sin esperar una petición previa.
 
-
-
 ---
-
 ## 🔄 Ciclo de Vida de la Conexión
 
 El funcionamiento de una conexión **[[WebSocket]]** consta de tres fases principales:

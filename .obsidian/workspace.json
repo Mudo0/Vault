@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Inbox/Message Broker.md",
+                "file": "30_Tecnologias/Android.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Message Broker"
+              "title": "Android"
+            }
+          },
+          {
+            "id": "2928d24131a44c44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "30_Tecnologias/DotNet/(.NET).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "(.NET)"
             }
           }
         ]
@@ -152,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_Inbox/Message Broker.md",
+                "file": "30_Tecnologias/Android.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Message Broker"
+              "title": "Esquema de Android"
             }
           },
           {
@@ -210,44 +224,43 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-git:Open Git source control": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "copilot:Open Copilot Chat": false
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
   "active": "d85eb905cce90c07",
   "lastOpenFiles": [
-    "00_Inbox/RabbitMQ.md",
+    "30_Tecnologias/WSL.md",
+    "30_Tecnologias/Android.md",
+    "30_Tecnologias/DotNet/(.NET).md",
+    "30_Tecnologias/Angular/Angular.md",
+    "10_Enciclopedia/Protocolos/WebSocket.md",
+    "00_Inbox/Vue.md",
+    "00_Inbox/Volúmenes.md",
+    "00_Inbox/Docker Desktop.md",
     "00_Inbox/Sin título 1.md",
+    "00_Inbox/Sin título.md",
+    "00_Inbox/Docker Daemon.md",
+    "00_Inbox/AMQP.md",
+    "00_Inbox/01_server fotos.md",
+    "00_Inbox/Message Broker.md",
+    "00_Inbox/Redis.md",
+    "00_Inbox/Apache Kafka.md",
+    "10_Enciclopedia/Arquitectura/Microservicios.md",
+    "00_Inbox/RabbitMQ.md",
     "10_Enciclopedia/Desarrollo/Frontend/Interceptors.md",
     "00_Inbox/Signal.md",
     "10_Enciclopedia/Entornos/Angular/EventEmitter.md",
     "10_Enciclopedia/Desarrollo/Backend",
     "10_Enciclopedia/Desarrollo/Frontend",
     "10_Enciclopedia/Desarrollo",
-    "00_Inbox/Angular.md",
     "10_Enciclopedia/Lenguajes/TypeScript",
     "copilot/copilot-conversations/quiero_que_me_pongas_la_nota_en_la_carpeta_que@20260317_005122.md",
     "copilot/copilot-conversations",
     "20_Recetario/Guias/Dotnet/Problem + Details.md",
     "20_Recetario/Cheatsheets/Prompts/prompt-info.md",
-    "30_Tecnologias/DotNet/(.NET).md",
     "40_Proyectos/Estanciero/Annotations/@Component.md",
     "00_Inbox/Hibernate.md",
-    "00_Inbox/Cross-Cutting Concerns.md",
-    "00_Inbox/CQRS.md",
     "Assets",
-    "00_Inbox/00_To Do.md",
-    "10_Enciclopedia/Lenguajes/C SHARP/Pattern Matching.md",
-    "copilot/copilot-custom-prompts/Make shorter.md",
-    "copilot/copilot-custom-prompts/Translate to Chinese.md",
-    "00_Inbox/Sin título.md",
-    "copilot/copilot-custom-prompts/Summarize.md",
-    "copilot/copilot-custom-prompts/Simplify.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Make longer.md",
-    "copilot/copilot-custom-prompts/Generate table of contents.md",
     "Assets/Pasted image 20260316231028.png",
     "copilot/copilot-custom-prompts",
     "copilot",
