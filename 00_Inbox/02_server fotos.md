@@ -1,4 +1,6 @@
 
+- hacer propio bitwarden (gestor de contraseñas)
+
 ---
 Esta es una excelente configuración híbrida. Tienes la **privacidad y control** del servidor local y la **accesibilidad/inteligencia** de la nube.
 

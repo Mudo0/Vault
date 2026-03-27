@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20_Recetario/Guias/Organizacion Directorios CLEAN.md",
+                "file": "00_Inbox/02_server fotos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Organizacion Directorios CLEAN"
+              "title": "02_server fotos"
+            }
+          },
+          {
+            "id": "d5acca4f4da63dce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_Inbox/01_To Do server.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01_To Do server"
             }
           }
         ]
@@ -152,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20_Recetario/Guias/Organizacion Directorios CLEAN.md",
+                "file": "00_Inbox/02_server fotos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Organizacion Directorios CLEAN"
+              "title": "Esquema de 02_server fotos"
             }
           },
           {
@@ -215,8 +229,11 @@
   },
   "active": "d85eb905cce90c07",
   "lastOpenFiles": [
-    "00_Inbox/Ubuntu.md",
+    "00_Inbox/01_To Do server.md",
+    "00_Inbox/02_server fotos.md",
+    "00_Inbox/00_To Do.md",
     "20_Recetario/Guias/Organizacion Directorios CLEAN.md",
+    "00_Inbox/Ubuntu.md",
     "20_Recetario/Guias/Multi pusheo git.md",
     "20_Recetario/Configs/AGENTS.md.md",
     "30_Tecnologias/DotNet/(.NET).md",
@@ -228,10 +245,8 @@
     "00_Inbox/Volúmenes.md",
     "00_Inbox/Docker Desktop.md",
     "00_Inbox/Sin título 1.md",
-    "00_Inbox/Sin título.md",
     "00_Inbox/Docker Daemon.md",
     "00_Inbox/AMQP.md",
-    "00_Inbox/01_server fotos.md",
     "00_Inbox/Message Broker.md",
     "00_Inbox/Redis.md",
     "00_Inbox/Apache Kafka.md",
@@ -244,7 +259,6 @@
     "10_Enciclopedia/Desarrollo/Frontend",
     "10_Enciclopedia/Desarrollo",
     "10_Enciclopedia/Lenguajes/TypeScript",
-    "copilot/copilot-conversations/quiero_que_me_pongas_la_nota_en_la_carpeta_que@20260317_005122.md",
     "copilot/copilot-conversations",
     "Assets",
     "Assets/Pasted image 20260316231028.png",
