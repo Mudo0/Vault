@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Inbox/02_server fotos.md",
+                "file": "20_Recetario/Cheatsheets/Commits conventions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02_server fotos"
+              "title": "Commits conventions"
             }
           },
           {
@@ -27,15 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Inbox/01_To Do server.md",
+                "file": "10_Enciclopedia/Redes/OSI/04_Transporte.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_To Do server"
+              "title": "04_Transporte"
+            }
+          },
+          {
+            "id": "eecf6932cc887e32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10_Enciclopedia/Redes/OSI/00_OSI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "00_OSI"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -166,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_Inbox/02_server fotos.md",
+                "file": "10_Enciclopedia/Redes/OSI/00_OSI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de 02_server fotos"
+              "title": "Esquema de 00_OSI"
             }
           },
           {
@@ -196,7 +211,7 @@
             }
           },
           {
-            "id": "10928b190bc57f29",
+            "id": "9a4c081afef9733e",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -227,45 +242,53 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d85eb905cce90c07",
+  "active": "eecf6932cc887e32",
   "lastOpenFiles": [
-    "00_Inbox/01_To Do server.md",
-    "00_Inbox/02_server fotos.md",
-    "00_Inbox/00_To Do.md",
-    "20_Recetario/Guias/Organizacion Directorios CLEAN.md",
-    "00_Inbox/Ubuntu.md",
-    "20_Recetario/Guias/Multi pusheo git.md",
-    "20_Recetario/Configs/AGENTS.md.md",
-    "30_Tecnologias/DotNet/(.NET).md",
-    "30_Tecnologias/Android.md",
-    "30_Tecnologias/WSL.md",
-    "30_Tecnologias/Angular/Angular.md",
-    "10_Enciclopedia/Protocolos/WebSocket.md",
-    "00_Inbox/Vue.md",
-    "00_Inbox/Volúmenes.md",
-    "00_Inbox/Docker Desktop.md",
-    "00_Inbox/Sin título 1.md",
-    "00_Inbox/Docker Daemon.md",
+    "10_Enciclopedia/Redes/OSI/01_Física.md",
+    "00_Inbox/Bits.md",
+    "10_Enciclopedia/Redes/OSI/02_Enlace de Datos.md",
+    "00_Inbox/Red.md",
+    "Assets/data-link-layer.png",
+    "Assets/presentation-layer.png",
+    "Assets/network-layer.png",
+    "Assets/session-layer.png",
+    "Assets/transport-layer.png",
+    "Assets/physical-layer.png",
+    "00_Inbox/MAC.md",
+    "10_Enciclopedia/Redes/OSI/03_Red.md",
+    "00_Inbox/IGMP.md",
+    "00_Inbox/ICMP.md",
+    "00_Inbox/LAN.md",
+    "10_Enciclopedia/Redes/OSI/04_Transporte.md",
+    "10_Enciclopedia/Redes/OSI/05_Sesión.md",
+    "10_Enciclopedia/Redes/OSI/07_Aplicación.md",
+    "10_Enciclopedia/Redes/OSI/06_Presentación.md",
+    "Assets/osi-layers.png",
+    "00_Inbox/DNS.md",
+    "Assets/application-layer.png",
+    "10_Enciclopedia/Redes/OSI/00_OSI.md",
+    "00_Inbox/Capa 6 - Presentación.md",
+    "10_Enciclopedia/Redes/OSI",
+    "10_Enciclopedia/Redes/Protocolos/URI.md",
+    "10_Enciclopedia/Redes",
+    "Assets/error handling front.png",
+    "TCP/IP.md",
+    "TCP",
+    "00_Inbox/FTP.md",
+    "00_Inbox/SMTP.md",
+    "00_Inbox/UDP.md",
+    "00_Inbox/IP.md",
+    "00_Inbox/Protocolos.md",
+    "20_Recetario/Cheatsheets/Commits conventions.md",
+    "00_Inbox/ISO.md",
     "00_Inbox/AMQP.md",
-    "00_Inbox/Message Broker.md",
-    "00_Inbox/Redis.md",
-    "00_Inbox/Apache Kafka.md",
-    "10_Enciclopedia/Arquitectura/Microservicios.md",
-    "00_Inbox/RabbitMQ.md",
-    "10_Enciclopedia/Desarrollo/Frontend/Interceptors.md",
-    "00_Inbox/Signal.md",
-    "10_Enciclopedia/Entornos/Angular/EventEmitter.md",
     "10_Enciclopedia/Desarrollo/Backend",
     "10_Enciclopedia/Desarrollo/Frontend",
     "10_Enciclopedia/Desarrollo",
     "10_Enciclopedia/Lenguajes/TypeScript",
     "copilot/copilot-conversations",
     "Assets",
-    "Assets/Pasted image 20260316231028.png",
     "copilot/copilot-custom-prompts",
-    "copilot",
-    "10_Enciclopedia/Fundamentos/Seguridad/JWT",
-    "10_Enciclopedia/Fundamentos/Seguridad",
     "Untitled.canvas",
     "Lenguajes/C SHARP/Sin título.canvas",
     "C SHARP/Sin título.canvas"

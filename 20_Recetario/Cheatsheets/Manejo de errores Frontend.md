@@ -1,4 +1,4 @@
-![[Pasted image 20260316231028.png]]
+![[error handling front.png]]
 # 🛡️ Arquitectura de Manejo de Errores por Capas (Frontend)
 
 Esta estrategia representa un flujo estructurado en 5 capas, diseñado para capturar, procesar y mostrar errores de forma controlada en aplicaciones cliente (común en frameworks como **[[Angular]]**, **[[React]]** o **[[Vue]]**). 
