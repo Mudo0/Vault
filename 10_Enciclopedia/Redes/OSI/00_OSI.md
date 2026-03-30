@@ -43,5 +43,5 @@ Para que la comunicación ocurra, los datos deben viajar desde la Capa 7 del emi
 * **Encapsulamiento:** A medida que los datos bajan por la pila en el emisor, cada capa añade su propia información de control (cabeceras o *headers*).
 * **Desencapsulamiento:** En el receptor, cada capa remueve su cabecera correspondiente y entrega los datos limpios a la capa superior.
 
-> **💡 Nota comparativa:** Aunque el modelo OSI es el estándar teórico por excelencia, el modelo que realmente utiliza internet hoy en día es el modelo **[[TCP|TCP/IP]]**, que es una versión más simplificada y práctica de estas capas.
+> **💡 Nota comparativa:** Aunque el modelo OSI es el estándar teórico por excelencia, el modelo que realmente utiliza internet hoy en día es el modelo **[[TCP-IP|TCP/IP]]**, que es una versión más simplificada y práctica de estas capas.
 

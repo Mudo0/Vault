@@ -8,34 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d85eb905cce90c07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20_Recetario/Cheatsheets/Commits conventions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Commits conventions"
-            }
-          },
-          {
-            "id": "d5acca4f4da63dce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10_Enciclopedia/Redes/OSI/04_Transporte.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "04_Transporte"
-            }
-          },
-          {
             "id": "eecf6932cc887e32",
             "type": "leaf",
             "state": {
@@ -48,9 +20,23 @@
               "icon": "lucide-file",
               "title": "00_OSI"
             }
+          },
+          {
+            "id": "f3dfed67f6c27759",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10_Enciclopedia/Redes/Protocolos/IPv6.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IPv6"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10_Enciclopedia/Redes/OSI/00_OSI.md",
+                "file": "10_Enciclopedia/Redes/Protocolos/IPv6.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de 00_OSI"
+              "title": "Esquema de IPv6"
             }
           },
           {
@@ -242,46 +228,46 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "eecf6932cc887e32",
+  "active": "f3dfed67f6c27759",
   "lastOpenFiles": [
-    "10_Enciclopedia/Redes/OSI/01_Física.md",
-    "00_Inbox/Bits.md",
+    "00_Inbox/DHCP.md",
+    "10_Enciclopedia/Redes/Protocolos/IPv6.md",
+    "00_Inbox/Dual Stack.md",
+    "00_Inbox/IoT.md",
+    "00_Inbox/IPsec.md",
+    "10_Enciclopedia/Redes/Protocolos/IPv4.md",
+    "00_Inbox/NAT.md",
+    "10_Enciclopedia/Redes/TCP-IP.md",
+    "10_Enciclopedia/Redes/Protocolos/IP.md",
+    "00_Inbox/Ethernet.md",
+    "00_Inbox/Wifi.md",
+    "00_Inbox/Suite.md",
+    "10_Enciclopedia/Redes/OSI/00_OSI.md",
+    "10_Enciclopedia/Redes/Protocolos/TCP.md",
+    "10_Enciclopedia/Redes/OSI/07_Aplicación.md",
+    "10_Enciclopedia/Redes/OSI/06_Presentación.md",
+    "10_Enciclopedia/Redes/OSI/05_Sesión.md",
+    "10_Enciclopedia/Redes/OSI/04_Transporte.md",
+    "10_Enciclopedia/Redes/OSI/03_Red.md",
     "10_Enciclopedia/Redes/OSI/02_Enlace de Datos.md",
-    "00_Inbox/Red.md",
+    "10_Enciclopedia/Redes/OSI/01_Física.md",
+    "00_Inbox/Router.md",
+    "00_Inbox/datagrama.md",
+    "10_Enciclopedia/Redes/Protocolos/STOMP.md",
+    "10_Enciclopedia/Redes/Protocolos/WebSocket.md",
+    "10_Enciclopedia/Redes/Protocolos/SSH.md",
     "Assets/data-link-layer.png",
     "Assets/presentation-layer.png",
     "Assets/network-layer.png",
     "Assets/session-layer.png",
     "Assets/transport-layer.png",
     "Assets/physical-layer.png",
-    "00_Inbox/MAC.md",
-    "10_Enciclopedia/Redes/OSI/03_Red.md",
-    "00_Inbox/IGMP.md",
-    "00_Inbox/ICMP.md",
-    "00_Inbox/LAN.md",
-    "10_Enciclopedia/Redes/OSI/04_Transporte.md",
-    "10_Enciclopedia/Redes/OSI/05_Sesión.md",
-    "10_Enciclopedia/Redes/OSI/07_Aplicación.md",
-    "10_Enciclopedia/Redes/OSI/06_Presentación.md",
     "Assets/osi-layers.png",
-    "00_Inbox/DNS.md",
     "Assets/application-layer.png",
-    "10_Enciclopedia/Redes/OSI/00_OSI.md",
-    "00_Inbox/Capa 6 - Presentación.md",
     "10_Enciclopedia/Redes/OSI",
-    "10_Enciclopedia/Redes/Protocolos/URI.md",
     "10_Enciclopedia/Redes",
     "Assets/error handling front.png",
-    "TCP/IP.md",
     "TCP",
-    "00_Inbox/FTP.md",
-    "00_Inbox/SMTP.md",
-    "00_Inbox/UDP.md",
-    "00_Inbox/IP.md",
-    "00_Inbox/Protocolos.md",
-    "20_Recetario/Cheatsheets/Commits conventions.md",
-    "00_Inbox/ISO.md",
-    "00_Inbox/AMQP.md",
     "10_Enciclopedia/Desarrollo/Backend",
     "10_Enciclopedia/Desarrollo/Frontend",
     "10_Enciclopedia/Desarrollo",
