@@ -1,58 +1,40 @@
 Este script deployea una app de angular en cloudflare pages:
-### 1. Configuración inicial y lectura de rutas
 
-- Define la raíz del proyecto (`ROOT`), la ruta del `package.json`, el directorio de salida compilado (`dist/bianca-tattoo/browser`) y el nombre del proyecto en Cloudflare (`biantattoo`).
-- Prepara una interfaz interactiva de lectura por consola (`readline`) para hacerte preguntas.
-### 2. Recolección de datos (Interacción)
+## 🔄 Flujo de Ejecución (Paso a Paso)
 
-- **Pregunta el tipo de cambio:** Te pide seleccionar entre `1) Patch`, `2) Minor` o `3) Major` (si no respondes nada, asume `1 / patch`).
-- **Pregunta el mensaje:** Te pide un texto descriptivo de los cambios realizados.
-- **Guarda un respaldo en memoria:** Lee la versión original del `package.json` para poder restaurarla si algo falla más adelante.
-### 3. Ejecución de pruebas (`runTests`)
-
-- Ejecuta `ng test --no-watch`.
-- Corre los tests unitarios una sola vez. **Si un test falla, el script se detiene de inmediato** y no avanza al siguiente paso.
-### 4. Compilación de Angular (`runBuild`)
-
-- Ejecuta `ng build`.
-- Genera los archivos optimizados para producción dentro de `dist/bianca-tattoo/browser`. Si la compilación falla (por un error de TypeScript, HTML o SCSS), el script se aborta.
-### 5. Actualización de versión (`bumpVersion`)
-
-- Ejecuta `npm version [patch|minor|major] --no-git-tag-version`.
-- Aumenta el número de versión en `package.json` sin crear etiquetas de Git automáticas aún.
-- Construye la cadena del mensaje del commit (ej: `v1.1.0: Se agregó formulario de contacto`).
-- Activa la bandera de control `versionBumped = true`.
-### 6. Guardado en Git (`stageAndCommit`)
-
-- Ejecuta `git add .` para preparar todos los archivos modificados.
-- Verifica mediante `git diff --cached --quiet` si realmente hay cambios preparados:
-    - Si **hay cambios**, ejecuta `git commit -m "vX.Y.Z: mensaje"`.
-    - Si **no hay cambios nuevos**, omite el commit para evitar que Git lance un error.
-- Activa la bandera de control `commitDone = true`.
-### 7. Despliegue a Cloudflare Pages (`deploy`)
-
-- Ejecuta el comando de Wrangler:
-    `npx wrangler pages deploy "dist/bianca-tattoo/browser" --project-name="biantattoo" --commit-message="..."`
+### 1. Selección Interactiva de Versión
+- Lee la versión actual directamente desde el `package.json`.
+- Calcula y te muestra dinámicamente cómo quedarían los tres tipos de salto semántico (_Semantic Versioning_):
     
-- **Si el despliegue es exitoso:** Muestra el mensaje de felicitaciones y finaliza.
-- **Si el despliegue falla:** Informa que el commit en Git quedó a salvo, muestra el comando exacto de Wrangler para reintentarlo manualmente y sale con código de error.
-### 8. Sistema de Seguridad y Rollback (`catch`)
+    - **Patch** (ej. `1.0.0` → `1.0.1`) para correcciones.
+    - **Minor** (ej. `1.0.0` → `1.1.0`) para nuevas funcionalidades.
+    - **Major** (ej. `1.0.0` → `2.0.0`) para rediseños o cambios grandes.
+- Te pide ingresar una breve descripción del cambio.
+### 2. Ejecución de Pruebas (`ng test --no-watch`)
+- Corre los tests unitarios una sola vez.
+- **Filtro de seguridad:** Si un solo test falla, la ejecución se interrumpe de inmediato. No se modifica ningún archivo ni se sube nada.
+### 3. Compilación de Angular (`ng build`)
+- Genera los archivos de producción en la ruta `dist/bianca-tattoo/browser`.
+- Si hay un error de TypeScript, sintaxis o HTML durante el build, el script se detiene aquí sin haber tocado el número de versión.
+### 4. Incremento de Versión (`bumpVersion`)
+- Una vez que el código pasó los tests y compiló con éxito, ejecuta `npm version <tipo> --no-git-tag-version`.
+- Lee la nueva versión generada y arma el mensaje formal para Git (ejemplo: `v1.1.0: Agregada nueva galería`).
+### 5. Confirmación en Git (`stageAndCommit`)
+- Ejecuta `git add .` para preparar los archivos modificados.
+- **Chequeo inteligente:** Usa `git diff --cached --quiet` para verificar si realmente hay cambios nuevos. Si no hay nada diferente por guardar, omite el commit limpiamente para no provocar un error de Git.
+### 6. Despliegue a Cloudflare Pages (`deploy`)
+- Sube los archivos compilaros (`dist/bianca-tattoo/browser`) al proyecto **`biantattoo`** en Cloudflare Pages mediante `wrangler`.
+- **Si el despliegue en Cloudflare es exitoso:** Ejecuta automáticamente `git push` para enviar los commits a GitHub.
+- **Si el despliegue falla:** No rompe todo. Te informa amablemente que tu código ya quedó guardado y versionado a salvo en Git local, y te entrega el comando exacto para reintentar la subida manualmente cuando quieras.
+## 🛡️ Mecanismos de Seguridad Destacados
 
-Si ocurre un error imprevisto durante el proceso:
-
-- **Si la versión se modificó pero AÚN NO se hizo el commit** (`versionBumped && !commitDone`): Restaura automáticamente el `package.json` original con la versión anterior para no dejar tu repositorio en un estado inconsistente.
-- Imprime el mensaje de error y cierra la ejecución de forma limpia.
-
-
+- **Rollback Automático de `package.json`:** Si por algún motivo el proceso falla justo después de haber cambiado la versión pero antes de hacer el commit, el script ejecuta `restorePackageJson()` para revertir tu `package.json` a la versión original.
+- **Orden Lógico Perfecto:** **Test ➔ Build ➔ Version ➔ Commit ➔ Deploy ➔ Push**. Este orden evita que se creen "commits fantasma" de código que no llega a compilar.
 ```js
 
-
 const { execSync } = require('child_process');
-
 const readline = require('readline');
-
 const fs = require('fs');
-
 const path = require('path');
 
   
@@ -62,11 +44,8 @@ const path = require('path');
   
 
 const ROOT = path.join(__dirname, '..');
-
 const PKG_PATH = path.join(ROOT, 'package.json');
-
 const DIST_PATH = 'dist/bianca-tattoo/browser';
-
 const PROJECT_NAME = 'biantattoo';
 
   
@@ -76,7 +55,6 @@ const PROJECT_NAME = 'biantattoo';
   
 
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
-
 const ask = (question) => new Promise((resolve) => rl.question(question, resolve));
 
   
@@ -109,12 +87,52 @@ function restorePackageJson(original) {
 
   
 
+function parseVersion(version) {
+
+  const [major, minor, patch] = version.split('.').map(Number);
+
+  return { major, minor, patch };
+
+}
+
+  
+
+function formatVersion(v) {
+
+  return `${v.major}.${v.minor}.${v.patch}`;
+
+}
+
+  
+
+function bumpPatch(v) {
+
+  return { major: v.major, minor: v.minor, patch: v.patch + 1 };
+
+}
+
+  
+
+function bumpMinor(v) {
+
+  return { major: v.major, minor: v.minor + 1, patch: 0 };
+
+}
+
+  
+
+function bumpMajor(v) {
+
+  return { major: v.major + 1, minor: 0, patch: 0 };
+
+}
+
+  
+
 function exitError(msg) {
 
   console.error(`\n❌  ${msg}\n`);
-
   rl.close();
-
   process.exit(1);
 
 }
@@ -125,15 +143,22 @@ function exitError(msg) {
 
   
 
-async function askReleaseType() {
+async function askReleaseType(currentVersion) {
+
+  const v = parseVersion(currentVersion);
+  const patchV = formatVersion(bumpPatch(v));
+  const minorV = formatVersion(bumpMinor(v));
+  const majorV = formatVersion(bumpMajor(v));
+
+  
 
   console.log('¿Qué tipo de cambio es?');
 
-  console.log('  1) Patch  (1.0.0 → 1.0.1)  — Corrección de errores');
+  console.log(`  1) Patch  (${currentVersion} → ${patchV})  — Corrección de errores`);
 
-  console.log('  2) Minor  (1.0.0 → 1.1.0)  — Nueva funcionalidad');
+  console.log(`  2) Minor  (${currentVersion} → ${minorV})  — Nueva funcionalidad`);
 
-  console.log('  3) Major  (1.0.0 → 2.0.0)  — Cambio grande / rediseño\n');
+  console.log(`  3) Major  (${currentVersion} → ${majorV})  — Cambio grande / rediseño\n`);
 
   
 
@@ -172,7 +197,6 @@ function runTests() {
 function runBuild() {
 
   console.log('\n🔨  Compilando Angular...');
-
   exec('ng build');
 
 }
@@ -182,15 +206,12 @@ function runBuild() {
 function bumpVersion(releaseType, userMessage) {
 
   console.log('\n📦  Actualizando versión...');
-
   exec(`npm version ${releaseType} --no-git-tag-version`);
 
   
 
   const pkg = readPackageJson();
-
   const newVersion = pkg.version;
-
   const commitMessage = `v${newVersion}${userMessage ? `: ${userMessage}` : ''}`;
 
   
@@ -204,7 +225,6 @@ function bumpVersion(releaseType, userMessage) {
 function stageAndCommit(commitMessage) {
 
   console.log('\n📝  Guardando cambios en Git...');
-
   exec('git add .');
 
   
@@ -214,14 +234,20 @@ function stageAndCommit(commitMessage) {
   try {
 
     execSync('git diff --cached --quiet', { stdio: 'pipe', cwd: ROOT });
-
     console.log('   No hay cambios nuevos que commitear, se omite el commit.');
 
   } catch {
-
     exec(`git commit -m "${commitMessage}"`);
 
   }
+
+}
+
+  
+
+function generateVersionFile() {
+
+  execSync('node scripts/generate-version.js', { stdio: 'pipe', cwd: ROOT });
 
 }
 
@@ -240,8 +266,15 @@ function deploy(newVersion, commitMessage) {
   try {
 
     exec(cmd);
+    console.log(`\n✅  ¡Despliegue exitoso v${newVersion}! 🎉`);
 
-    console.log(`\n✅  ¡Despliegue exitoso v${newVersion}! 🎉\n`);
+  
+
+    console.log('\n📤  Subiendo cambios a Git remoto...');
+    exec('git push');
+    console.log('✅  Push exitoso.\n');
+
+  
 
     rl.close();
 
@@ -279,15 +312,15 @@ async function main() {
 
   
 
-  const releaseType = await askReleaseType();
-
-  const userMessage = await askCommitMessage();
-
-  
-
   const originalPkg = readPackageJson();
 
   const originalVersion = originalPkg.version;
+
+  
+
+  const releaseType = await askReleaseType(originalVersion);
+
+  const userMessage = await askCommitMessage();
 
   
 
