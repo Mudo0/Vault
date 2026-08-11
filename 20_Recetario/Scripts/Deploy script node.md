@@ -45,8 +45,8 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const PKG_PATH = path.join(ROOT, 'package.json');
-const DIST_PATH = 'dist/bianca-tattoo/browser';
-const PROJECT_NAME = 'biantattoo';
+const DIST_PATH = 'dist/[[PROYECTO]]/browser';
+const PROJECT_NAME = '[[NOMBRE_DEL_PROYECTO]]';
 
   
 
